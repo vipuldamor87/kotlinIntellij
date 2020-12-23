@@ -6,6 +6,7 @@ class Person(val firstName: String ="peter", val lastName: String = "Parker") {
             println("the new nickname is $value")
         }
     fun printInfo(){
-        println("$firstName $lastName is $nickName")
+        val nickNameToPrint = nickName ?:"no nickname" //? is Elvis Operator
+        println("$firstName $lastName is $nickNameToPrint")
     }
 }
