@@ -28,12 +28,4 @@ fun main(){
     sayHello()
     sayHelloWithPara("stringPassed")
 
-
-
-
-
-
-
-
-
    }
