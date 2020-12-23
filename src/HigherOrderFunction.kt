@@ -32,7 +32,7 @@ fun main() {
         println(it)
     }
 
-    val language = list.first()
+    val language = list.first() // also use find{ it.startsWith("j")}
     println(language)
 }
     
