@@ -25,9 +25,15 @@ fun main() {
         .filterNotNull()
         .filter{
         it.startsWith("j")
-    }.forEach {
+    }
+
+        .take(1)
+        .forEach {
         println(it)
     }
+
+    val language = list.first()
+    println(language)
 }
     
 
