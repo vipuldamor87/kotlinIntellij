@@ -7,6 +7,7 @@ fun main(){
                         {
                             override fun think() {
                                 println("Think Virtually..")
+
                             }
                         }
     programmer.think()
